@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/required.js" data-main="config/requireConfig"></script>
+ <script>
+requirejs(['requireConfig'],function(){
+requirejs(['../define/load'],function(){
+alert("config loaded");	
+})	
+});
+</script> 
+</head>
+<body>
+<button id="click" name="click" value="click" onclick="click()">CLICK HERE
+</button>
+</body>
+</html>
